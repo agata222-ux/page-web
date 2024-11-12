@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lange="es">
+    <head>
+    <meta charset="UTF8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <!-- Para nuestro CSS externo -->
+    <link href="css/estilos.css" rel="stylesheet">
+</head>
+
+    <body class="flex-container">
+        <style>
+           div {
+             background-color: lightgrey;
+             width: 300px;
+             border: 15px solid rgb(0, 15, 128);
+             padding: 50px;
+             margin: 20px;
+           } 
+        </style>
+        <!--Titulo de la pagina-->
+        <div class="alert alert-warning text-center fst-italic" role="alert">
+            <h2>BIENVENIDOS A MI WEB</h2>
+            </div>
+
+       <!--Menu de navegacion-->
+        <nav>
+            <ul>
+                <li><a href="inicio.html" onclick="seleccionar()">INICIO</a</li>
+                <li><a href="sobre_mi.html" onclick="seleccionar()">SOBRE MI</a</li>
+                <li><a href="skills.html" onclick="seleccionar()">SKILLS</a</li>
+                <li><a href="curriculum.html" onclick="seleccionar()">CURRICULUM</a</li>  
+                <li><a href="portfolio.html" onclick="seleccionar()">PORTFOLIO</a</li>
+            </ul>
+        </nav><br>
+    
+    <!-- Una imagen propia o representativa nuestra! -->
+    <img src="imagen/fototech.jpg" alt="Desarrolladora de Software" width="500px" height="400px">
+
+    <!-- Una tabla para enumerar las tecnologías que conocemos,
+     las que queremos conocer y nuestros hobbies -->
+    <table border="3">
+        <tr style="background: #003255;color: floralwhite;">
+            <td>TECNOLOGÍA_QUE_CONOZCO</td>
+            <td>TECNOLOGÍA_POR_CONOCER</td>
+        </tr>
+
+        <tr>
+            <td>Python</td>
+            <td>PHP</td>
+        </tr>
+
+        <tr>
+            <td>Big Data</td>
+            <td>Robótica</td>
+        </tr>
+
+        <tr>
+            <td>Java</td>
+            <td>Juegos y Simulaciones</td>
+        </tr>
+        <tr>
+            <td>Javascript</td>
+            <td>Ciberseguridad</td>
+        </tr>
+
+        <tr>
+            <td>HTML</td>
+            <td>Inteligencia Artificial</td>
+        </tr>
+
+        <tr>
+            <td>CSS</td>
+            <td>Inteligencia de las Cosas</td>
+        </tr>
+    </table><br>
+    
+    <!-- Formulario sencillo HTML sin funcionalidad.
+     Con campos nombre, apellido, email, telefono y un boton submit de enviar -->
+     <form>
+        <label for="fname">Nombre:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">Apellido:</label><br>
+        <input type="text" id="lname" name="lname"><br>
+        <label for="gname">Mail:</label><br>
+        <input type="text" id="gname" name="gname"><br>
+        <label for="tname">Telefono:</label><br>
+        <input type="text" id="tname" name="tname"><br> 
+        <button type="submit"> ENVIAR </button>
+    </form>
+    </body><br>
+  <!----Seccion inferior de la página, funciona como contenedor--->
+    <footer style="text-align:center; margin-bottom: 0; padding: 1rem; background-color: hwb(160 3% 38% / 0.397);">
+        <h3>CONTACTO</h3>
+        <ul>
+            <li>Teléfono: 123-456-7890</li>
+            <li>Email: agathaaldana22@gmailcom</li>
+            <li>Dirección: Calle 123, Ciudad</li>
+        </ul>
+    </footer>
+
+</html>
