@@ -1,0 +1,92 @@
+h2{ 
+    color:rgb(25, 0, 255);
+}
+h3{
+    color: rgb(253, 26, 26);
+}
+body {
+    background-color:#7fffc3;
+    display: flex;
+    width: 1800px; margin-left: 20%;
+    margin: 0 auto; 
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+footer{
+    color: rgb(255, 11, 47);
+    text-align: center;
+    margin-bottom: 0;
+    padding: 10px;
+    color: #02104d;
+    
+}
+
+.contenedor{
+    display:flex;
+    justify-content:center;
+}
+
+/* Tablet horizontal */
+@media (max-width: 1080px) { 
+    /* Styles for tablets in landscape */
+     }
+  
+  /* Tablet vertical */
+  @media (max-width: 768px) { 
+    /* Styles for tablets in portrait */
+    body {
+        background-color: lightblue; /* Cambia el fondo en pantallas de tablet horizontal */
+      }
+      
+     
+    .container {
+           
+    width: 90%; /* Ajusta el tamaño del contenedor */
+        
+        
+    margin: 0 auto; /* Centra el contenedor */
+      }
+    }
+  
+  /* Mobile 1 */
+  @media (max-width: 480px) { 
+    /* Styles for smaller mobile devices */
+    body {
+    
+    background-color: lightgreen /* Cambia el fondo en pantallas de tablet vertical */
+      }
+      
+    }
+     
+    .container {
+          
+    width: 100%; /* El contenedor ocupa el 100% del ancho */
+      }
+      .header {
+        
+     
+    font-size: 18px; /* Ajusta el tamaño de fuente del encabezado */
+    }
+    
+  
+  /* Mobile 2 */
+  @media (max-width: 375px) { 
+    /* Styles for even smaller mobile devices */
+    body {
+    
+    background-color: lightcoral; /* Cambia el fondo en pantallas móviles aún más pequeñas */
+      }
+      
+      }
+    .container {  
+    padding: 5px; /* Reduce aún más el relleno */
+      }
+      .header {
+        
+    font-size: 14px; /* Aún más pequeño el tamaño de la fuente del encabezado */
+      }
+  
+
+
+
